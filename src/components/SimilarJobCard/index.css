@@ -1,0 +1,118 @@
+.job-item-1 {
+  background-color: #202020;
+  min-height: 25vh;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 26px;
+  cursor: pointer;
+  width: 100%;
+  min-height: 50vh;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-1 {
+    width: 25%;
+  }
+}
+
+.card-11 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-logo-1 {
+  width: 60px;
+  height: 60px;
+}
+
+.role-card-1 {
+  margin-left: 20px;
+}
+.role-1 {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.rating-card-1 {
+  display: flex;
+  align-items: center;
+}
+.star-1 {
+  color: #fbbf24;
+  width: 22px;
+  height: 22px;
+}
+.rating-1 {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+.card-21 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.location-employee-container-1 {
+  display: flex;
+  align-items: center;
+}
+.location-card-1 {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon-1 {
+  color: #f1f5f9;
+  width: 20px;
+  height: 20px;
+}
+.location-1 {
+  color: #f1f5f9;
+  margin-left: 8px;
+}
+
+.brief-case-card-1 {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.brief-case-icon-1 {
+  color: #f1f5f9;
+  width: 20px;
+  height: 20px;
+}
+.employment-type-1 {
+  color: #f1f5f9;
+  margin-left: 8px;
+}
+.package-1 {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+.line-1 {
+  width: 100%;
+  border: solid 1px #7e858e;
+  margin-bottom: 20px;
+}
+
+.description-1 {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}

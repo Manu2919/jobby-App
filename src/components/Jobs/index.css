@@ -1,0 +1,13 @@
+.jobs-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    padding: 40px;
+    display: flex;
+  }
+}

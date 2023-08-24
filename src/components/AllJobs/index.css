@@ -1,0 +1,254 @@
+.all-jobs-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .all-jobs-container {
+    width: 72%;
+    margin-left: 28px;
+  }
+}
+
+.search-bar-container-2 {
+  width: 50%;
+  height: 38px;
+  border: solid 1px #cbd5e1;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-bar-container-2 {
+    display: none;
+    width: 100%;
+  }
+}
+
+.search-bar {
+  padding-left: 20px;
+  padding-right: 8px;
+  height: 38px;
+  width: 85%;
+  background-color: transparent;
+  border: solid 0px;
+  outline: none;
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.search-icon-btn {
+  background-color: #202020;
+  width: 15%;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 0px;
+  border-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+}
+
+.search-icon-btn:hover {
+  background-color: #4f46e5;
+}
+
+.search-icon {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+/******************************************loader container*********************************/
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+/**********************************failure container**********************************/
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.failure-img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 38px;
+  color: #f1f5f9;
+  margin-bottom: 14px;
+}
+
+.para {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.retry-btn {
+  background-color: #6366f1;
+  width: 60px;
+  height: 35px;
+  border-radius: 6px;
+  color: #f1f5f9;
+  font-weight: 500;
+  border: solid 0px;
+  outline: none;
+  cursor: pointer;
+}
+/***************************jobs container****************************/
+
+.all-jobs-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.job-item {
+  background-color: #202020;
+  min-height: 25vh;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 26px;
+  cursor: pointer;
+}
+
+.card-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.role-card {
+  margin-left: 20px;
+}
+.role {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.rating-card {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color: #fbbf24;
+  width: 22px;
+  height: 22px;
+}
+.rating {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+.card-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.location-employee-container {
+  display: flex;
+  align-items: center;
+}
+.location-card {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  color: #f1f5f9;
+  width: 20px;
+  height: 20px;
+}
+.location {
+  color: #f1f5f9;
+  margin-left: 8px;
+}
+
+.brief-case-card {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.brief-case-icon {
+  color: #f1f5f9;
+  width: 20px;
+  height: 20px;
+}
+.employment-type {
+  color: #f1f5f9;
+  margin-left: 8px;
+}
+.package {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+.line {
+  width: 100%;
+  border: solid 1px #7e858e;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-size: 18px;
+}
+
+/**********************************no-jobs-view******************/
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+.no-jobs-img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+.no-jobs-title {
+  font-family: 'roboto';
+  font-size: 38px;
+  color: #f1f5f9;
+  margin-bottom: 14px;
+}
+.no-jobs-para {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
